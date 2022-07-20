@@ -1,0 +1,384 @@
+@charset "ISO-8859-1";
+
+.main-background {
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-background1 {
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navbar {
+	border-top: 15px solid black;
+	border-bottom: 15px solid black;
+	background-color: white;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Libre Baskerville', serif;
+	background-color: white;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.book-image {
+	margin-top: 150px;
+	background-color: black;
+	width: 700px;
+}
+
+.title {
+	color: #79633b;;
+	margin-top: 500px;
+	margin-right: 150px;
+	font-size: 64pt;
+	font-family: 'Libre Baskerville', serif;
+	margin-top: 500px;
+}
+
+.title2 {
+	color: white;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	margin-bottom: 0px;
+}
+
+.title3 {
+	font-family: 'Libre Baskerville', serif;
+	color: white;
+	text-decoration: none;
+}
+
+.title3:hover {
+	color: white;
+}
+
+.form1 {
+	border-radius: 5px;
+	width: 200px;
+	height: 100%;
+	background-color: #79633b;
+	font-family: 'Helvetica', serif;
+}
+
+.form2, .form5 {
+	justify-content: center;
+	padding: 200px 20px 0px 20px;
+	width: 350px;
+	background-color: #712726;
+	font-family: 'Helvetica', serif;
+}
+
+.form3 {
+	width: 250px;
+	background-color: #44442c;
+	font-family: 'Helvetica', serif;
+}
+
+.form4 {
+	width: 200px;
+	background-color: #79633b;
+	font-family: 'Helvetica', serif;
+}
+
+.form6 {
+	width: 250px;
+	background-color: #44442c;
+	font-family: 'Helvetica', serif;
+}
+
+.form {
+	margin-top: 20px;
+	align-content: center;
+	text-align: center;
+	align-content: center;
+}
+
+/* .btn {
+	background-color: black;
+	color: white;
+} */
+.form-row {
+	width: 310px;
+	margin-top: 8px;
+}
+
+.btn-1 {
+	color: black;
+	border: 1px solid black;
+}
+
+.body {
+	background-color: black;
+	color: white;
+}
+
+.browse {
+	background-color: #712726;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	padding: 15px;
+	border-right: 30px solid black;
+	border-bottom: 15px solid black;
+	border-left: 30px solid black;
+}
+
+.flip-card {
+	background-color: transparent;
+	width: 170px;
+	height: 200px;
+	margin: 0px 25px 0px 25px;
+	perspective: 1000px;
+}
+
+.flip-card-inner {
+	margin-top: 19px;
+	position: relative;
+	width: 170px;
+	height: 200px;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+	font-family: 'Libre Baskerville', serif;
+	padding: 10px;
+	border-radius: 5px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+	background-color: black;
+}
+
+.flip-card-front {
+	border-right: 4px solid white;
+	border-bottom: 4px solid white;
+	border-top: 4px solid black;
+	color: white;
+}
+
+.flip-card-back {
+	font-family: 'Helvetica', serif;
+	font-size: 10pt;
+	border-bottom: 4px solid white;
+	border-right: 4px solid black;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+.heart-image {
+	height: 20px;
+}
+
+.header {
+	margin-left: 30px;
+	margin-bottom: 0px;
+	font-size: 18pt;
+}
+
+.welcome {
+	padding: 0px 10px 0px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	height: 70px;
+	border-bottom: 1px solid white;
+}
+
+.container-1 {
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-left: 35px;
+	margin-top: 15px;
+}
+
+.add-button {
+	margin-right: 15px;
+}
+
+.search-input {
+	width: 300px;
+	border-radius: 2px;
+	margin-right: 15px;
+	padding: 2px;
+}
+
+.book-title {
+	font-weight: bold;
+	font-size: 14pt;
+	margin-bottom: 5px;
+}
+
+.book-author {
+	font-size: 12pt;
+	margin-bottom: 5px;
+}
+
+.main-info {
+	border-bottom: 1px solid white;
+}
+
+.other-info {
+	margin-top: 5px;
+}
+
+.author1 {
+	margin-top: 15px;
+}
+
+.p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.view-title {
+	font-size: 48pt;
+}
+
+.search-bar {
+	display: flex;
+}
+
+.genres {
+	background-color: white;
+	color: black;
+}
+
+.newform {
+	width: 700px;
+	margin-right: 80px;
+}
+
+.table1 {
+	width: 100%
+}
+
+.onebook {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.onebook-left {
+	margin-left: 50px;
+}
+
+.onebook-right {
+	margin-right: 100px;
+	width: 900px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.onebook-info {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.genre-list {
+	line-height: 50%;
+	margin-top: 15px;
+}
+
+.actions {
+	margin-top: 50px;
+}
+
+.current {
+	font-size: 16pt;
+}
+
+.profile-info-container {
+	padding: 0px 100px 0px 100px; display : flex;
+	justify-content: space-between;
+	display: flex;
+}
+
+.friend-container {
+	background-color: #44442c;
+	color: black;
+	border-radius: 5px;
+	padding: 10px;
+	width: 500px;
+	color: white;
+}
+
+.profile-info {
+	background-color: #79633b;
+	color: black;
+	border-radius: 5px;
+	padding: 10px;
+	width: 500px;
+	color: white;
+	
+}
+
+.shadow1{
+	text-shadow: 2px 2px 5px black;
+}
+
+.finish{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.userlink{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.shadow2{
+	box-shadow: 5px 5px 10px black;
+}
