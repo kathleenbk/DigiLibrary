@@ -56,5 +56,8 @@ I developed an interactive website using Java and Spring framework that allows a
 - Incorporated a mix of Bootstrap styling and personal CSS
 - Previously deployed using AWS/EC2, will deploy again once new features are added (see below)
 
+#### Running the Application
+You can run this application as a Spring Boot app using Spring Tool Suite, but the database is not public at this time. 
+
 ## Future Additions
 I am currently working on implementing the Google Books API. This will basically get rid of the need to enter books in manually, avoiding "bad" entries. 
