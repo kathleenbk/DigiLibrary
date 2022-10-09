@@ -61,3 +61,5 @@ You can run this application as a Spring Boot app using Spring Tool Suite, but t
 
 ## Future Additions
 I am currently working on implementing the Google Books API. This will basically get rid of the need to enter books in manually, avoiding "bad" entries. 
+
+In the future, I would like to add more features to the profile, including a way to display what page of the book you are on. I also plan on implementing a way to leave reviews for books. 
