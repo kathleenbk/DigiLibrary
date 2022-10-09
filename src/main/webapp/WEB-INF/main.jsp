@@ -25,17 +25,14 @@
 </head>
 <body>
 <div class="main-background">
-		<div class="book-image">
-		<img src="<c:url value="/images/bookimg.png"/>" />
-		</div>
-		<div class="main-text">
-			<h1>Read a book.</h1>
+		<div><img class="book-image"  src="<c:url value="/images/bookimg.png"/>"/></div><div>
+			<h1 class="title">Read a book.</h1>
 		</div>
 	</div>
 	<div class="navbar">
-	<a href="/login">Log In</a>
-	<a href="/register">Register</a>
-	<a href="/about">About</a>
+	<div class="nav-left">
+		<a href="/register">Log In / Register</a></div><div class="nav-right"><a href="/">Home</a><a
+			href="/about">About</a></div>
 	</div>
 </body>
 </html>
