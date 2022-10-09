@@ -1,14 +1,13 @@
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
+function handleResponse(obj) {
+	   obj.items.forEach((item, index) => {
+	    if(index > 7) return; // limit 8 result
+	    let div = document.createElement('div');
+	    div.className = 'b-card';
+	    div.innerHTML = `<h1>${item.volumeInfo.title}</h1>
+	    <p><strong>${item.volumeInfo.authors[0]}</strong></p>
+	    <img src="${item.volumeInfo.imageLinks.thumbnail}" alt="${item.singleTitle} by ${item.volumeInfo.authors[0]}" />`
+	    
+	    let container = document.querySelector('.booklist-cards');
+	    container.append(div);
+	  })
+	}

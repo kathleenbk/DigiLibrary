@@ -33,7 +33,7 @@
 			<form action="/search">
 				<input type="text" class="search-input"
 					placeholder="Search by Title, Author, or Genre" name="searchString" />
-					<input type="submit" class="btn btn-light" value="Search" />
+				<input type="submit" class="btn btn-light" value="Search" />
 			</form>
 
 		</div>
